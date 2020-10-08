@@ -1,0 +1,8 @@
+.filterContainer {
+  border: 1px solid black;
+  margin: 25px auto;
+}
+
+ul {
+  list-style: none;
+}

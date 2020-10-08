@@ -1,0 +1,133 @@
+.table {
+  border-collapse: collapse;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 1598px;
+  margin-bottom: 10px;
+}
+
+.table__header {
+  background: #F3F3F3;
+  height: 45px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #647c8e;
+}
+
+.table__row {
+  height: 62px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #25213b;
+  border-bottom: 1px solid #dde0e3;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+.table__detailed-info {
+  background-image: url("/detailed_info.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  width: 20px;
+  height: 20px;
+}
+
+.table__info-container {
+  display: inline-block;
+}
+
+.table__secondary-info {
+  font-weight: normal;
+  color: #647C8E;
+}
+
+.table__checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #B9BDC1;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.table__checkbox:checked {
+  background: #F27480;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1e496b;
+  align-self: flex-start;
+}
+
+.inviteBtn{
+  width: 234px;
+  height: 42px;
+  background: #f27480;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  align-self: flex-end
+}
+
+.tableTop {
+  display: flex;
+  justify-content: space-between;
+  width: 1598px;
+  height: 60px;
+  margin-bottom: 18px;
+}
+
+.container {
+  width: 1598px;
+  margin: 0 auto;
+}
+
+.tfoot {
+  width: 1598px;
+  height: 45px;
+  background: #f3f3f3;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  color: #647c8e;
+}
+
+.nextPageBtn,
+.prevPageBtn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
